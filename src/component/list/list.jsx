@@ -51,7 +51,7 @@ class List extends React.Component {
                                         <Route
                                         key={index}
                                         exact
-                                        path={`${this.props.match.url}` + route.path}
+                                        path={`${this.props.match.path}` + route.path}
                                         component={route.component}
                                         />
                                     )
