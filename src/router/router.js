@@ -22,11 +22,11 @@ const rootRouters = [
         //根路由匹配
         path:'/',
         exact:true,
-        component:() => <Redirect to='/react-router'/>
+        component:() => <Redirect to='/react-router-example'/>
     },
     {
         // 首页
-        path:'/react-router',
+        path:'/react-router-example',
         component:Loadable({
             loader:() => import('@/component/list/list.jsx'),
             loading:() => ('')
